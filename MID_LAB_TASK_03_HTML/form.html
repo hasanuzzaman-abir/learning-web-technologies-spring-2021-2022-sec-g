@@ -1,0 +1,90 @@
+<html>
+    <head></head>
+    <body>
+        <form>
+            <table border="2px" cellpadding = "12" align ="center">
+                <tr>
+                    <th colspan="3">PERSON PROFILE</th>
+                </tr>
+
+                <tr>
+                    <td>Name</td>
+                    <td>
+                        <input type="text" id="fname" nmae="fname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>
+                        <input type="email" id="email" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="MALE">
+                        <label for="male">Male</label>
+                        <br>
+                        <input type="radio" id="female" name="gender" value="FEMALE">
+                        <label for="female">Female</label>
+                        <br>
+                        <input type="radio" id="other" name="gender" value="OTHER">
+                        <label for="other">Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date Of Birth</td>
+                    <td>
+                        <input type="month" id="bdaymonth" name="bdaymonth">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="bloodgrp">Blood Group</label>
+                    </td>
+                    <td>
+                        <select name="bloodgrp" id="bloodgrp">
+                            <option value="A+">A+</option>
+                            <option value="A-">A-</option>
+                            <option value="AB+">AB+</option>
+                            <option value="AB-">AB-</option>
+                            <option value="B+">B+</option>
+                            <option value="B-">B-</option>
+                            <option value="O+">O+</option>
+                            <option value="O-">O-</option>
+                            </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Degree</td>
+                    <td>
+                        <input type="checkbox" id="SSC" name="degree" value="SSC">
+                        <label for="SSC">SSC</label>
+                        <br>
+                        <input type="checkbox" id="HSC" name="degree" value="HSC">
+                        <label for="HSC">HSC</label>
+                        <br>
+                        <input type="checkbox" id="Bsc" name="degree" value="Bsc">
+                        <label for="Bsc">Bsc</label>
+                        <br>
+                        <input type="checkbox" id="Msc" name="degree" value="Msc">
+                        <label for="Msc">Msc</label>
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Poto</td>
+                    <td>
+                        <input type="file" id="myfile" name="myfile">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><button type="submit" form="form1" value="Submit">Submit</button>
+                        <button type="reset" form="form1" value="Reset">Reset</button></td>
+                </tr>
+            </table>
+        </form> 
+    </body>
+</html>
